@@ -4,10 +4,10 @@ local M = {}
 M.setup = function(opt)
     local group = vim.api.nvim_create_augroup("vip_save", { clear = true })
     vim.api.nvim_create_autocmd(
-        "BufWrite",
+        "BufEnter",
         {
             callback = function()
-                print("test")
+                print("something else")
             end,
             group = group,
         }
