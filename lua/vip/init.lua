@@ -7,7 +7,7 @@ M.setup = function(opt)
         "BufWritePost",
         {
             callback = function()
-                print("something else")
+                print(opt)
             end,
             group = group,
         }
