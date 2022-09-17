@@ -7,6 +7,7 @@ M.setup = function(opt)
 
     local cmd = "echo '"..M._opt.."'"
     print(opt)
+    print("🤣")
 
     local group = vim.api.nvim_create_augroup("vip_save", { clear = true })
     vim.api.nvim_create_autocmd(
