@@ -9,7 +9,7 @@ M.setup = function(opt)
     vim.api.nvim_create_autocmd(
         "BufWrite",
         {
-            command = "echo '" + M._opt + "'",
+            command = "echo '"..M._opt.."'",
             group = group,
         }
     )
