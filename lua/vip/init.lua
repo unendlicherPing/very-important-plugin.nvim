@@ -7,7 +7,7 @@ M.setup = function(opt)
         "BufWrite",
         {
             callback = function()
-                print(opt)
+                print("test")
             end,
             group = group,
         }
