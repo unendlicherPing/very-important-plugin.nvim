@@ -6,7 +6,7 @@ M.setup = function(opt)
     M._opt = opt
 
     local cmd = "echo '"..M._opt.."'"
-    print(cmd)
+    print(opt)
 
     local group = vim.api.nvim_create_augroup("vip_save", { clear = true })
     vim.api.nvim_create_autocmd(
